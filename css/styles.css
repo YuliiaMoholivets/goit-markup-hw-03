@@ -217,6 +217,7 @@ button {
     color:var(--primary-text-color);
     text-decoration: none; 
     width: 320px;
+   
 }
 
 .portfolio-cards .text{
