@@ -61,11 +61,13 @@ button {
 
 .site-header {
     border-bottom: 1px solid var(--header-border-color);
+
 }
   
 .site-header .container {
     display: flex;
     align-items: center;
+    
 }
 
 .site-nav {
@@ -139,6 +141,8 @@ button {
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
    
 }
 
@@ -208,7 +212,6 @@ button {
         padding-bottom: 20px;
         padding-left: 24px;
         padding-right: 24px; 
-    width: 320px;
     border: 1px solid var(--portfolio-cards-border-color);
         border-top: none;
 }
@@ -216,7 +219,7 @@ button {
 .portfolio-cards .link {
     color:var(--primary-text-color);
     text-decoration: none; 
-    width: 320px;
+
    
 }
 
@@ -414,7 +417,7 @@ footer {
     display: flex;
     margin-top: 50px;
     margin-left: calc(-1 * var(--list-items-gap));
-    width: 270px;
+   
 }
 
 .team-cards .item {
